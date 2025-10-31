@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>About Radha Naam Jaap | Our Mission & Vision</title>
+<meta name="description" content="Learn about Radha Naam Jaap - a digital platform dedicated to spreading divine love through Radha's name. Our mission is to make spiritual practice accessible to everyone, anywhere.">
+<meta name="keywords" content="About Radha Jaap, spiritual platform, bhakti movement, Krishna consciousness, digital meditation">
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Mukta', sans-serif; background: radial-gradient(circle at center, #FFF9F0 0%, #FCE8C8 100%); min-height: 100vh; transition: background 0.5s ease; }
+body.dark-mode { background: radial-gradient(circle at center, #3B1E2B 0%, #2D1B18 100%); }
+nav { width: 100%; background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(20px); border-bottom: 2px solid rgba(212, 163, 115, 0.3); padding: 1rem 2rem; display: flex; justify-content: center; align-items: center; gap: 2rem; box-shadow: 0 4px 10px rgba(212, 163, 115, 0.15); position: sticky; top: 0; z-index: 1000; }
+nav a { color: #6D4C41; text-decoration: none; font-size: 1rem; font-weight: 600; padding: 0.5rem 1.5rem; border-radius: 2rem; transition: all 0.3s ease; }
+nav a:hover { background: rgba(212, 163, 115, 0.2); color: #3B2F2F; transform: translateY(-2px); }
+nav a.active { background: linear-gradient(90deg, #D4A373, #A44A9E); color: white; box-shadow: 0 4px 10px rgba(164, 74, 158, 0.3); }
+body.dark-mode nav { background: rgba(60, 40, 50, 0.6); border-bottom-color: rgba(227, 176, 75, 0.3); }
+body.dark-mode nav a { color: #E3B04B; }
+body.dark-mode nav a:hover { background: rgba(227, 176, 75, 0.2); color: #FCECC0; }
+body.dark-mode nav a.active { background: linear-gradient(90deg, #E3B04B, #A45A52); }
+.dark-mode-toggle { position: fixed; bottom: 2rem; right: 2rem; width: 60px; height: 60px; background: linear-gradient(135deg, #D4A373, #A44A9E); border-radius: 50%; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(164, 74, 158, 0.4); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; transition: all 0.3s ease; z-index: 1000; }
+.dark-mode-toggle:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(164, 74, 158, 0.6); }
+body.dark-mode .dark-mode-toggle { background: linear-gradient(135deg, #E3B04B, #A45A52); }
+.container { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
+.page-header { text-align: center; margin-bottom: 3rem; }
+.page-header h1 { font-family: 'Tiro Devanagari Sanskrit', serif; font-size: 2.5rem; background: linear-gradient(45deg, #D4A373, #A44A9E); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem; }
+.page-header p { color: #6D4C41; font-size: 1.1rem; font-style: italic; }
+body.dark-mode .page-header h1 { background: linear-gradient(45deg, #E3B04B, #A45A52); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+body.dark-mode .page-header p { color: #FCECC0; }
+.content-card { background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(20px); padding: 2rem; border-radius: 1.5rem; border: 2px solid rgba(212, 163, 115, 0.3); box-shadow: 0 8px 20px rgba(212, 163, 115, 0.2); margin-bottom: 2rem; }
+.content-card h2 { color: #A44A9E; font-size: 1.8rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
+.content-card h3 { color: #D4A373; font-size: 1.3rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+.content-card p { color: #3B2F2F; line-height: 1.8; margin-bottom: 1rem; font-size: 1rem; }
+.content-card ul { color: #3B2F2F; line-height: 1.8; margin: 1rem 0 1rem 2rem; }
+.content-card li { margin-bottom: 0.75rem; }
+body.dark-mode .content-card { background: rgba(60, 40, 50, 0.6); border-color: rgba(227, 176, 75, 0.3); }
+body.dark-mode .content-card h2 { color: #E3B04B; }
+body.dark-mode .content-card h3 { color: #E3B04B; }
+body.dark-mode .content-card p, body.dark-mode .content-card ul, body.dark-mode .content-card li { color: #FCECC0; }
+.highlight-box { background: linear-gradient(135deg, rgba(212, 163, 115, 0.2), rgba(164, 74, 158, 0.2)); padding: 2rem; border-radius: 1.5rem; border: 2px solid rgba(212, 163, 115, 0.4); text-align: center; margin: 2rem 0; }
+.highlight-box h3 { color: #A44A9E; font-size: 1.5rem; margin-bottom: 1rem; }
+.highlight-box p { color: #3B2F2F; font-size: 1.1rem; line-height: 1.8; }
+body.dark-mode .highlight-box { background: linear-gradient(135deg, rgba(227, 176, 75, 0.2), rgba(164, 90, 82, 0.2)); border-color: rgba(227, 176, 75, 0.3); }
+body.dark-mode .highlight-box h3 { color: #E3B04B; }
+body.dark-mode .highlight-box p { color: #FCECC0; }
+.team-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.team-card { background: rgba(255, 255, 255, 0.5); padding: 1.5rem; border-radius: 1rem; text-align: center; border: 2px solid rgba(212, 163, 115, 0.3); }
+.team-card .icon { font-size: 3rem; margin-bottom: 1rem; }
+.team-card h4 { color: #A44A9E; margin-bottom: 0.5rem; }
+.team-card p { color: #6D4C41; font-size: 0.9rem; }
+body.dark-mode .team-card { background: rgba(60, 40, 50, 0.6); border-color: rgba(227, 176, 75, 0.3); }
+body.dark-mode .team-card h4 { color: #E3B04B; }
+body.dark-mode .team-card p { color: #FCECC0; }
+.feedback-btn { position: fixed; right: 0; top: 50%; transform: translateY(-50%) rotate(-90deg); transform-origin: right center; background: linear-gradient(90deg, #D4A373, #A44A9E); color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 0.5rem 0.5rem 0 0; cursor: pointer; font-weight: 600; box-shadow: -4px 0 10px rgba(164, 74, 158, 0.3); z-index: 999; transition: all 0.3s ease; }
+.feedback-btn:hover { padding-right: 2rem; }
+.feedback-popup { position: fixed; right: -400px; top: 50%; transform: translateY(-50%); width: 350px; max-width: 90vw; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(20px); border: 2px solid rgba(212, 163, 115, 0.4); border-radius: 1rem; padding: 2rem; box-shadow: -8px 0 30px rgba(164, 74, 158, 0.3); z-index: 1001; transition: right 0.4s ease; }
+.feedback-popup.show { right: 1rem; }
+.feedback-popup h3 { color: #A44A9E; margin-bottom: 1rem; font-size: 1.3rem; }
+.feedback-popup textarea, .feedback-popup input { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 2px solid rgba(212, 163, 115, 0.3); border-radius: 0.5rem; font-family: 'Mukta', sans-serif; font-size: 0.9rem; }
+.feedback-popup textarea { height: 120px; resize: vertical; }
+.feedback-popup button { background: linear-gradient(90deg, #D4A373, #A44A9E); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 0.5rem; cursor: pointer; font-weight: 600; width: 100%; margin-bottom: 0.5rem; }
+.feedback-popup .close-btn { background: #ccc; color: #333; }
+body.dark-mode .feedback-popup { background: rgba(60, 40, 50, 0.95); }
+body.dark-mode .feedback-popup h3 { color: #E3B04B; }
+body.dark-mode .feedback-popup textarea, body.dark-mode .feedback-popup input { background: rgba(255, 255, 255, 0.1); color: #FCECC0; border-color: rgba(227, 176, 75, 0.3); }
+footer { background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(20px); border-top: 2px solid rgba(212, 163, 115, 0.3); padding: 2rem; text-align: center; margin-top: 4rem; }
+footer a { color: #6D4C41; text-decoration: none; margin: 0 1rem; font-weight: 600; }
+footer p { color: #6D4C41; font-size: 0.9rem; }
+body.dark-mode footer { background: rgba(60, 40, 50, 0.6); border-top-color: rgba(227, 176, 75, 0.3); }
+body.dark-mode footer a { color: #E3B04B; }
+body.dark-mode footer p { color: #FCECC0; }
+@media (max-width: 768px) {
+nav { padding: 0.75rem 1rem; gap: 0.5rem; }
+nav a { font-size: 0.875rem; padding: 0.5rem 1rem; }
+.container { padding: 2rem 1rem; }
+.page-header h1 { font-size: 2rem; }
+.content-card { padding: 1.5rem; }
+.dark-mode-toggle { bottom: 1rem; right: 1rem; width: 50px; height: 50px; font-size: 1.2rem; }
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">🏠 Home</a>
+<a href="benefits.html">✨ Benefits</a>
+<a href="how-to-chant.html">📿 How to Chant</a>
+<a href="about.html" class="active">ℹ️ About</a>
+</nav>
+
+<button class="feedback-btn" onclick="toggleFeedback()">💬 Feedback & Suggestions</button>
+<div class="feedback-popup" id="feedbackPopup">
+<h3>📝 Share Your Thoughts</h3>
+<p style="font-size: 0.9rem; color: #6D4C41; margin-bottom: 1rem;">Help us improve! Share queries, suggestions, or anything you'd like.</p>
+<input type="text" id="feedbackName" placeholder="Your Name (optional)">
+<input type="email" id="feedbackEmail" placeholder="Your Email (optional)">
+<textarea id="feedbackMessage" placeholder="Your message, query, or suggestion..."></textarea>
+<button onclick="submitFeedback()">✉️ Send Feedback</button>
+<button class="close-btn" onclick="toggleFeedback()">✖ Close</button>
+</div>
+
+<button class="dark-mode-toggle" id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+
+<div class="container">
+<div class="page-header">
+<h1>🙏 About Radha Naam Jaap</h1>
+<p>Spreading divine love through sacred chanting</p>
+</div>
+<div class="content-card">
+<h2>🌸 Our Story</h2>
+<p>Radha Naam Jaap was born from a simple yet profound vision - to make the sacred practice of chanting Radha's divine name accessible to everyone, anywhere in the world, at any time.</p>
+<p>In today's fast-paced digital age, many seekers struggle to maintain regular spiritual practice. Traditional methods of keeping count with mala beads, while beautiful, can be challenging for beginners or those with busy lifestyles. We recognized this gap and created a solution that honors tradition while embracing modern technology.</p>
+<p>Our platform combines ancient spiritual wisdom with contemporary digital tools, making it easier than ever to track your jaap, build consistency, and experience the transformative power of Radha's name.</p>
+</div>
+<div class="content-card">
+<h2>🎯 Our Mission</h2>
+<p><strong>To democratize spiritual practice and make divine connection accessible to all.</strong></p>
+<p>We believe that everyone deserves access to tools that support their spiritual journey. Whether you're a devoted practitioner who completes multiple malas daily or a curious beginner taking your first steps, our platform welcomes you with open arms.</p>
+<h3>What We Aim To Achieve:</h3>
+<ul>
+<li><strong>Remove Barriers:</strong> Eliminate the obstacles that prevent people from maintaining regular spiritual practice</li>
+<li><strong>Build Community:</strong> Connect seekers worldwide through shared devotion to Radha and Krishna</li>
+<li><strong>Preserve Tradition:</strong> Honor ancient practices while making them relevant for modern life</li>
+<li><strong>Track Progress:</strong> Help practitioners see their spiritual growth through consistent tracking</li>
+<li><strong>Inspire Consistency:</strong> Encourage daily practice through beautiful design and meaningful features</li>
+</ul>
+</div>
+<div class="content-card">
+<h2>🔮 Our Vision</h2>
+<p>We envision a world where:</p>
+<ul>
+<li>Millions of people start their day with Radha's divine name on their lips</li>
+<li>Spiritual practice is as natural and habitual as checking your phone</li>
+<li>Technology serves as a bridge to the divine rather than a distraction from it</li>
+<li>People across cultures, languages, and backgrounds unite in devotion to divine love</li>
+<li>The simple act of chanting transforms lives, heals hearts, and brings peace to the world</li>
+</ul>
+<p style="margin-top: 1.5rem;">We dream of a global spiritual awakening where Radha's name echoes in hearts around the world, bringing humanity closer to divine consciousness and unconditional love.</p>
+</div>
+<div class="highlight-box">
+<h3>💫 Why Radha's Name?</h3>
+<p>Radha Rani is the supreme goddess of divine love, the embodiment of devotion, and the eternal beloved of Lord Krishna. Her name carries the power to:</p>
+<p style="margin-top: 1rem;"><strong>• Open the heart to unconditional love<br>• Dissolve ego and pride<br>• Grant Krishna's mercy and grace<br>• Bring immediate peace and joy<br>• Transform consciousness from material to spiritual</strong></p>
+<p style="margin-top: 1rem; font-style: italic;">"Where Radha's name is chanted, Krishna himself comes running" - Ancient Bhakti Wisdom</p>
+</div>
+<div class="content-card">
+<h2>✨ What Makes Us Different</h2>
+<div class="team-section">
+<div class="team-card">
+<div class="icon">🎨</div>
+<h4>Beautiful Design</h4>
+<p>Spiritual aesthetics that inspire devotion and create a sacred digital space</p>
+</div>
+<div class="team-card">
+<div class="icon">📊</div>
+<h4>Smart Tracking</h4>
+<p>Automatic progress saving with daily resets and lifetime counting</p>
+</div>
+<div class="team-card">
+<div class="icon">🎵</div>
+<h4>Ambient Music</h4>
+<p>Soothing meditation music to enhance your practice experience</p>
+</div>
+<div class="team-card">
+<div class="icon">⚡</div>
+<h4>Divine Energy</h4>
+<p>Visual energy filling up with every chant - see your spiritual power grow</p>
+</div>
+<div class="team-card">
+<div class="icon">🌙</div>
+<h4>Dark Mode</h4>
+<p>Eye-friendly modes for any time of day or night practice</p>
+</div>
+<div class="team-card">
+<div class="icon">💾</div>
+<h4>Auto-Save</h4>
+<p>Never lose your progress - everything saves automatically</p>
+</div>
+</div>
+</div>
+<div class="content-card">
+<h2>🌍 Our Values</h2>
+<h3>🙏 Devotion First</h3>
+<p>We approach this work as seva (service) to Radha and Krishna. Technology is merely our tool; devotion is our foundation.</p>
+<h3>💝 Accessible to All</h3>
+<p>Completely free, no ads, no premium tiers. Spiritual practice should never be behind a paywall.</p>
+<h3>🔒 Privacy Respected</h3>
+<p>Your spiritual journey is personal. We store data locally on your device - no tracking, no data collection.</p>
+<h3>🌱 Always Improving</h3>
+<p>We continuously listen to our community and add features that genuinely serve spiritual growth.</p>
+<h3>🤝 Community Driven</h3>
+<p>Built with love by devotees, for devotees. Your feedback shapes our direction.</p>
+</div>
+<div class="content-card">
+<h2>📈 Our Journey So Far</h2>
+<p>Since our launch, we've witnessed:</p>
+<ul>
+<li><strong>Thousands of malas completed</strong> by practitioners worldwide</li>
+<li><strong>Daily users</strong> from over 50 countries across 6 continents</li>
+<li><strong>Heartwarming testimonials</strong> of transformation and divine experiences</li>
+<li><strong>Growing community</strong> of devoted souls supporting each other</li>
+<li><strong>Continuous improvements</strong> based on user feedback and suggestions</li>
+</ul>
+<p style="margin-top: 1.5rem;">Every single mala completed on our platform brings us joy and reminds us why we do this work. Your dedication inspires us!</p>
+</div>
+<div class="highlight-box">
+<h3>🌟 Join Our Mission</h3>
+<p>You're not just a user - you're part of a global spiritual movement. Every time you chant Radha's name, you contribute to raising the world's consciousness.</p>
+<p style="margin-top: 1rem;"><strong>Together, we're creating waves of divine love that ripple across the planet.</strong></p>
+<p style="margin-top: 1rem; font-size: 1.2rem;">Radhe Radhe! 🙏🌸</p>
+</div>
+<div class="content-card">
+<h2>💌 Contact & Feedback</h2>
+<p>We'd love to hear from you! Whether you have:</p>
+<ul>
+<li>Questions about the platform or spiritual practice</li>
+<li>Suggestions for new features or improvements</li>
+<li>Technical issues or bug reports</li>
+<li>Testimonials of how this platform has helped you</li>
+<li>Ideas for spreading Radha's name further</li>
+</ul>
+<p style="margin-top: 1.5rem;">Use the <strong>"💬 Feedback & Suggestions"</strong> button on the main page to share your thoughts. We read every message and respond with love!</p>
+<p style="margin-top: 1rem; font-style: italic; color: #A44A9E;">Your feedback helps us serve the community better. Thank you for being part of our journey! 🙏</p>
+</div>
+<div style="text-align: center; margin-top: 3rem;">
+<a href="index.html" style="display: inline-block; background: linear-gradient(90deg, #D4A373, #A44A9E); color: white; padding: 1rem 2.5rem; border-radius: 2rem; text-decoration: none; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(164, 74, 158, 0.3);">
+🔘 Start Your Spiritual Journey
+</a>
+</div>
+</div>
+
+<footer>
+<div style="margin-bottom: 1.5rem;">
+<a href="index.html">🏠 Home</a>
+<a href="benefits.html">✨ Benefits</a>
+<a href="how-to-chant.html">📿 How to Chant</a>
+<a href="about.html">ℹ️ About</a>
+</div>
+<p>© 2025 Radha Jaap | All Rights Reserved | Radhe Radhe 🙏</p>
+</footer>
+
+<script>
+function toggleFeedback() {
+const popup = document.getElementById('feedbackPopup');
+popup.classList.toggle('show');
+}
+
+function submitFeedback() {
+const name = document.getElementById('feedbackName').value;
+const email = document.getElementById('feedbackEmail').value;
+const message = document.getElementById('feedbackMessage').value;
+
+if (!message.trim()) {
+alert('Please enter your message!');
+return;
+}
+
+alert('🙏 Thank you for your feedback! Your message has been received.\n\nRadhe Radhe! 🌸');
+document.getElementById('feedbackName').value = '';
+document.getElementById('feedbackEmail').value = '';
+document.getElementById('feedbackMessage').value = '';
+toggleFeedback();
+}
+
+function toggleDarkMode() {
+document.body.classList.toggle('dark-mode');
+const isDark = document.body.classList.contains('dark-mode');
+document.getElementById('darkModeToggle').textContent = isDark ? '☀️' : '🌙';
+localStorage.setItem('darkMode', isDark);
+}
+
+window.onload = function() {
+const darkMode = localStorage.getItem('darkMode') === 'true';
+if (darkMode) {
+document.body.classList.add('dark-mode');
+document.getElementById('darkModeToggle').textContent = '☀️';
+}
+};
+</script>
+</body>
+</html>
